@@ -4,26 +4,25 @@ Available Pages by Role
 Below is a complete list of all pages available in our platform, categorized by functionality.
 Access to each page depends on the user's role:
 
-|check| = Access granted  
-|cross| = Access restricted
-
+✅ = Access granted  
+❌ = Access restricted
 
 +---------------------------+-------------+--------+---------+
 | Page Name                | Superadmin   | Admin  | User    |
 +===========================+=============+========+=========+
-| Users                    | |check|     | |check| | |cross| |
+| Users                    | ✅          | ✅     | ❌      |
 +---------------------------+-------------+--------+---------+
-| Extensions               | |check|     | |check| | |cross| |
+| Extensions               | ✅          | ✅     | ❌      |
 +---------------------------+-------------+--------+---------+
-| Ring Groups              | |check|     | |check| | |cross| |
+| Ring Groups              | ✅          | ✅     | ❌      |
 +---------------------------+-------------+--------+---------+
-| IVR Menu                 | |check|     | |check| | |cross| |
+| IVR Menu                 | ✅          | ✅     | ❌      |
 +---------------------------+-------------+--------+---------+
-| Voicemails               | |check|     | |check| | |check| |
+| Voicemails               | ✅          | ✅     | ✅      |
 +---------------------------+-------------+--------+---------+
-| IVR Recordings           | |check|     | |check| | |cross| |
+| IVR Recordings           | ✅          | ✅     | ❌      | 
 +---------------------------+-------------+--------+---------+
-| Call Detail Records      | |check|     | |check| | |check| |
+| Call Detail Records      | ✅          | ✅     | ✅      |
 +---------------------------+-------------+--------+---------+
-| Domain Settings          | |check|     | |cross| | |cross| |
+| Domain Settings          | ✅          | ❌     | ❌      |
 +---------------------------+-------------+--------+---------+
