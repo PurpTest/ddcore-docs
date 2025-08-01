@@ -14,4 +14,4 @@ Contents
 
    introduction
    api
-   available pages by role
+   available_pages_by_role

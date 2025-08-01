@@ -5,30 +5,9 @@ Welcome to our **DDCore** - a robust and user-friendly web interface designed to
 
 We have implemented a role-based access control system to ensure that each user has access to the appropriate tools and features:
 
-* Superadmin: Reserved for our core team, superadmins have unrestricted access to all pages and configurations across all domains.
+* **Superadmin**: Reserved for our core team, superadmins have unrestricted access to all pages and configurations across all domains.
 
-* Admin: Admins have broad access within their assigned domain, allowing them to manage most telephony settings, except for a few restricted sections.
+* **Admin**: Admins have broad access within their assigned domain, allowing them to manage most telephony settings, except for a few restricted sections.
 
-* User: Designed for end users, this role provides access to two essential pages, offering a simplified interface for basic operations.
-
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+* **User**: Designed for end users, this role provides access to two essential pages, offering a simplified interface for basic operations.
 
