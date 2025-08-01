@@ -11,3 +11,5 @@ We have implemented a role-based access control system to ensure that each user 
 
 * **User**: Designed for end users, this role provides access to two essential pages, offering a simplified interface for basic operations.
 
+.. image:: media/image.png
+   :alt: image
